@@ -38,6 +38,9 @@ func (l *LST) StakeRate(connector *ethclient.Client, block ...int64) (stake floa
 	case ethaddr.WSTETHList[l.Network]:
 		// wstETH
 		return getWSTETHStakeRates(connector, block...)
+	case ethaddr.SDAIList[l.Network]:
+		// sDAI
+		return getSDAIStakeRates(connector, block...)
 	default:
 		return
 	}
