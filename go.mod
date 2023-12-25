@@ -3,7 +3,7 @@ module github.com/0xVanfer/lst
 go 1.19
 
 require (
-	github.com/0xVanfer/abigen v0.1.17
+	github.com/0xVanfer/abigen v0.1.18
 	github.com/0xVanfer/chainId v0.2.0
 	github.com/0xVanfer/ethaddr v0.3.20
 	github.com/0xVanfer/types v0.1.6

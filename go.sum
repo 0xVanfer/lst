@@ -1,5 +1,5 @@
-github.com/0xVanfer/abigen v0.1.17 h1:DklSicBsLA9S11Lg7r7RaHnuFCAOqbZFA3szjVcihtQ=
-github.com/0xVanfer/abigen v0.1.17/go.mod h1:uOU++SxhSl43YMgOYutXM+MpjQzViQtsn8B+LID5xhY=
+github.com/0xVanfer/abigen v0.1.18 h1:4KrpN2zdLIR02KfsDiMiHEkgl5pVt0pvc0HnPGHzs7c=
+github.com/0xVanfer/abigen v0.1.18/go.mod h1:uOU++SxhSl43YMgOYutXM+MpjQzViQtsn8B+LID5xhY=
 github.com/0xVanfer/chainId v0.2.0 h1:gcmiCO+YQM87x5Lkrgm3B1Pi7nGGn/UAFPd87+qyWWU=
 github.com/0xVanfer/chainId v0.2.0/go.mod h1:UxVfrjL1lqlWJ2xBlS1tBVjG8h7CwU598V+5dgljdaI=
 github.com/0xVanfer/ethaddr v0.3.20 h1:VFYTqaaq4okyQZ2SdBz+p9/+oK0JsqKlLA+KdbT6P/w=

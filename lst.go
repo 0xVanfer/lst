@@ -21,6 +21,12 @@ var lsts = []*LST{
 		Token:      &erc20{Symbol: "wstETH", Address: ethaddr.WSTETHList[chainId.EthereumChainName], Decimals: 18},
 		Underlying: &erc20{Symbol: "WETH", Address: ethaddr.WETHList[chainId.EthereumChainName], Decimals: 18},
 	},
+	// sDAI
+	{
+		Network:    chainId.EthereumChainName,
+		Token:      &erc20{Symbol: "sDAI", Address: ethaddr.SDAIList[chainId.EthereumChainName], Decimals: 18},
+		Underlying: &erc20{Symbol: "DAI", Address: ethaddr.DAIList[chainId.EthereumChainName], Decimals: 18},
+	},
 	// sAVAX
 	{
 		Network:    chainId.AvalancheChainName,

@@ -23,5 +23,5 @@ func getMATICXStakeRates(connector *ethclient.Client, block ...int64) (stake flo
 		return
 	}
 	unstake = types.ToFloat64(unstakex) * 1e-18
-	return 1 / unstake, stake, nil
+	return 1 / unstake, unstake, nil
 }
