@@ -11,5 +11,8 @@ func getCallOpts(block ...int64) *bind.CallOpts {
 	if len(block) != 1 {
 		return nil
 	}
+	if block[0] == 0 {
+		return nil
+	}
 	return &bind.CallOpts{BlockNumber: types.ToBigInt(block[0])}
 }
