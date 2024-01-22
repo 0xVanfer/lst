@@ -33,11 +33,17 @@ var lsts = []*LST{
 		Token:      &erc20{Symbol: "sAVAX", Address: ethaddr.SAVAXList[chainId.AvalancheChainName], Decimals: 18},
 		Underlying: &erc20{Symbol: "WAVAX", Address: ethaddr.WAVAXList[chainId.AvalancheChainName], Decimals: 18},
 	},
-	// MATICX
+	// MaticX
 	{
 		Network:    chainId.PolygonChainName,
 		Token:      &erc20{Symbol: "MaticX", Address: ethaddr.MaticXList[chainId.PolygonChainName], Decimals: 18},
 		Underlying: &erc20{Symbol: "WMATIC", Address: ethaddr.WMATICList[chainId.PolygonChainName], Decimals: 18},
+	},
+	// stMATIC
+	{
+		Network:    chainId.EthereumChainName,
+		Token:      &erc20{Symbol: "stMATIC", Address: ethaddr.STMATICList[chainId.EthereumChainName], Decimals: 18},
+		Underlying: &erc20{Symbol: "WMATIC", Address: ethaddr.WMATICList[chainId.EthereumChainName], Decimals: 18},
 	},
 }
 

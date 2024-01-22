@@ -1,6 +1,7 @@
 package lst
 
 import (
+	"github.com/0xVanfer/chainId"
 	"github.com/0xVanfer/ethaddr"
 	"github.com/ethereum/go-ethereum/ethclient"
 )
@@ -41,6 +42,9 @@ func (l *LST) StakeRate(connector *ethclient.Client, block ...int64) (stake floa
 	case ethaddr.SDAIList[l.Network]:
 		// sDAI
 		return getSDAIStakeRates(connector, block...)
+	case ethaddr.STMATICList[chainId.EthereumChainName], ethaddr.STMATICList[chainId.PolygonChainName]:
+		// stMATIC
+		return getStMaticStakeRates(connector, block...)
 	default:
 		return
 	}

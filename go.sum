@@ -1,9 +1,9 @@
-github.com/0xVanfer/abigen v0.1.18 h1:4KrpN2zdLIR02KfsDiMiHEkgl5pVt0pvc0HnPGHzs7c=
-github.com/0xVanfer/abigen v0.1.18/go.mod h1:uOU++SxhSl43YMgOYutXM+MpjQzViQtsn8B+LID5xhY=
-github.com/0xVanfer/chainId v0.2.0 h1:gcmiCO+YQM87x5Lkrgm3B1Pi7nGGn/UAFPd87+qyWWU=
-github.com/0xVanfer/chainId v0.2.0/go.mod h1:UxVfrjL1lqlWJ2xBlS1tBVjG8h7CwU598V+5dgljdaI=
-github.com/0xVanfer/ethaddr v0.3.20 h1:VFYTqaaq4okyQZ2SdBz+p9/+oK0JsqKlLA+KdbT6P/w=
-github.com/0xVanfer/ethaddr v0.3.20/go.mod h1:G21ymC6uNLW/uFKqC81q95aqXUf33oPX3/whzOSlc7c=
+github.com/0xVanfer/abigen v0.1.21 h1:RhArceNt4M5Bk6yzGVZJttriejfq25gXaoYdEI6JiW0=
+github.com/0xVanfer/abigen v0.1.21/go.mod h1:uOU++SxhSl43YMgOYutXM+MpjQzViQtsn8B+LID5xhY=
+github.com/0xVanfer/chainId v0.3.0 h1:l/ORotp9Sfs7V9cJxd3C05bI75+XN2rvSCPVZFa4kdM=
+github.com/0xVanfer/chainId v0.3.0/go.mod h1:UxVfrjL1lqlWJ2xBlS1tBVjG8h7CwU598V+5dgljdaI=
+github.com/0xVanfer/ethaddr v0.4.4 h1:FuxhA8w57Sm3/YK3sIDJsaVTgje6egDbfyLJAGSGRMU=
+github.com/0xVanfer/ethaddr v0.4.4/go.mod h1:g6Akzwk91+zFEIgYsGbgmrsUA3M9n1n4i06tYm6PweQ=
 github.com/0xVanfer/types v0.1.6 h1:8lUHazjJ2Yir7uiTkNqsuhFH26W4Wy7VD1qw5lPXulQ=
 github.com/0xVanfer/types v0.1.6/go.mod h1:8QSGeOQOStzyb8kAZXRVnxJLOJVMqI16lO/a+OBXFOc=
 github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 h1:fLjPD/aNc3UIOA6tDi6QXUemppXK3P9BI7mr2hd6gx8=
