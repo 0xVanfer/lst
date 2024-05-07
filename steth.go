@@ -10,6 +10,8 @@ import (
 
 // 1 stETH === 1 ETH
 func getSTETHStakeRates(connector *ethclient.Client, block ...int64) (stake float64, unstake float64, err error) {
+	_ = connector
+	_ = block
 	// opt := getCallOpts(block...)
 	return 1, 1, nil
 }

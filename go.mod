@@ -3,9 +3,9 @@ module github.com/0xVanfer/lst
 go 1.19
 
 require (
-	github.com/0xVanfer/abigen v0.1.21
-	github.com/0xVanfer/chainId v0.3.0
-	github.com/0xVanfer/ethaddr v0.4.4
+	github.com/0xVanfer/abigen v0.1.22
+	github.com/0xVanfer/chainId v0.3.1
+	github.com/0xVanfer/ethaddr v0.5.2
 	github.com/0xVanfer/types v0.1.6
 	github.com/ethereum/go-ethereum v1.10.24
 )
